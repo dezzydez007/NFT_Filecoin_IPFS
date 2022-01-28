@@ -38,11 +38,11 @@ contract NjangiHouse is ERC721URIStorage {
         "other data like version, strenth, etc....": ""
     }
     */
-    event NewFilecoinNFTMinted(address sender, uint256 tokenId, string tokenURI);
+    event NewNjangiHousecoinNFTMinted(address sender, uint256 tokenId, string tokenURI);
     event RemainingMintableNFTChange(uint256 remainingMintableNFTs);
 
     //This sets our collection details. Anything minted by this contract will fall under this header
-    constructor() ERC721 ("EthGlobal NFTHack2022", "Filecoin Starter NFTs") {
+    constructor() ERC721 ("NjangiHouse", "NjangiBami") {
         console.log("This is my NFT contract");
         maxNFTs=100; //set a limit to number of nft's that are mintable
     }
