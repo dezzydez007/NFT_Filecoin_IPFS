@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "hardhat/console.sol"; //alows for console.logs in a solidity contract"
 
 //extending from 
-contract FilecoinNFTHackOLD is ERC721URIStorage {
+contract NjangiHouse is ERC721URIStorage {
     // Variables
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
@@ -29,6 +29,9 @@ contract FilecoinNFTHackOLD is ERC721URIStorage {
         "description": "NFT created for EthGlobal NFTHack 2022 and limited to 100 tokens"
         "image": //IPFS pinned image content CID
         "version": 1
+        "NHN": Bameleke
+        "Duration": 24months
+        "monthly cont": 10
         "strength": ""
         "intelligence": ""
     }

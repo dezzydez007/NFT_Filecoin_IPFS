@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "hardhat/console.sol"; //alows for console.logs in a solidity contract"
 
-contract FilecoinNFTHack is ERC721URIStorage {
+contract NjangiHouse is ERC721URIStorage {
 
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
@@ -26,6 +26,14 @@ contract FilecoinNFTHack is ERC721URIStorage {
     {
         "name": "Their name + Filecoin @ NFTHack 2022"
         "description": "NFT created for EthGlobal NFTHack 2022 and limited to 100 tokens"
+        "NHN": Bameleke"
+        "Duration": 24months
+        "monthly cont": 10
+        "strength": ""
+        "intelligence": ""
+
+
+
         "image": //IPFS pinned file content CID (can be any mime type)
         "other data like version, strenth, etc....": ""
     }
